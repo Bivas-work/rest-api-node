@@ -1,0 +1,23 @@
+{
+  "name": "rest-api-node",
+  "version": "1.0.0",
+  "description": "Sample project for learning",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "test"
+  },
+  "author": "Bivas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.1.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.2",
+    "pine": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
